@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Courier New", Courier, monospace;
+	background: url("../img/account.png");
+	background-size: cover;
+}
+
+
+.sign-box{
+	width: 330px;
+	height: 580px;
+	background: #a4a4a4;
+	color: #000;
+	top: 55%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+}
+
+
+
+.box input[type = "text-inline"],.box input[type = "tel"],.box input[type = "email"],.box input[type = "text"],.box input[type = "date"],.box select{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 8px auto;
+	text-align: center;
+	border: 1px solid #3792cb;
+	padding: 10px 10px;
+	width: 300px;
+	outline: none;
+	color: black;
+	border-radius: 12px;
+	transition: 0.25s;
+	background-color: #cdcdcd;
+	font-size: 17px;
+}
+
+.box p{
+	text-align: center;
+	font-size: 100px;
+	font-weight: bold;
+}
+
+.box input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	border: 2px solid #ffa500;
+	text-align: center;
+	padding: 10px 10px;
+	width: 200px;
+	outline: none;
+	border-radius: 20px;
+	transition: 0.25s;
+	background-color: #ffb732;
+	font-size: 17px;
+	font-style: italic;
+}
+
+
+.box i{
+	width: 26px;
+	float: left;
+	text-align: center;	
+}
+
+.box{
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	float: left;
+	margin: 10px;
+}

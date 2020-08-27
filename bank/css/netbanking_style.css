@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url("../img/account.png");
+	background-size: cover;
+	background-position: absolute;
+	font-family: sans-serif;
+}
+
+.accountform{
+	width: 500px;
+	height: 355px;
+	background: #a4a4a4;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+}
+
+
+.box h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.text{
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.box button[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3792cb;
+	padding: 10px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+	background-color: #cdcdcd;
+	font-size: 17px;
+}
+
+

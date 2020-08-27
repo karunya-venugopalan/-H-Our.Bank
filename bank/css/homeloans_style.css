@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	background: url("../img/home-loan.jpg");
+	background-size: cover;
+}
+
+p
+{
+font-style: italic;
+padding-left: 900px;
+font-size: 20px;
+
+}
+ul
+{
+padding-left: 900px;
+list-style-type: none;
+margin: 0;
+}
+
+li
+{
+font-size: 30px;
+color: darkred;
+}
+
+.box button[type = "submit"]{
+	padding-left: 1000px;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3792cb;
+	padding: 10px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+	background-color: #cdcdcd;
+	font-size: 17px;
+}
